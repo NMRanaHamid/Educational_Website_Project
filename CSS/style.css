@@ -8,3 +8,195 @@ body {
     transition: transform 0.5s;
     transform-style: preserve-3d;
   }
+td img {
+  width: 200px;
+  height: 200px;
+}
+.welcome img {
+  transition: transform 0.3s;
+}
+li {
+  list-style-type: none;
+}
+.welcome img:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+td p {
+  font-size: larger;
+}
+.container {
+  max-width: 1500px;
+  max-height: 800px;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: rgb(182, 255, 233);
+}
+
+section {
+  max-width: 800px;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+.container .navbar .search-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.search-bar:hover {
+  transform: scale(1.1);
+}
+.log-sign-container {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+}
+.log-sign-container :hover {
+  transform: scale3d(1.1);
+}
+
+.log-sign-container a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  align-items: center;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.log-sign-container a:hover {
+  transform: scale(1.2);
+}
+.signup-button,
+.login-button {
+  display: inline-block;
+  padding: 40px 40px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(75, 195, 239);
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+.get_started {
+  position: relative;
+  display: inline-block;
+}
+.get_started img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+.get_started img:hover {
+  opacity: 1;
+  background-color: #99c1c1;
+}
+.get {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgoldenrodyellow;
+  color: black;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 18px;
+}
+.get a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.get a:hover {
+  transform: translateY(-5px);
+}
+.courses {
+  background-color: #ccc;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(199, 8, 241);
+  /* margin-bottom: 30px; */
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 1300px;
+  /* background-color: #e7edf9; */
+  background-image: url("https://e0.pxfuel.com/wallpapers/735/144/desktop-wallpaper-the-ultimate-list-of-best-tools-resources-for-front-end-web-web-development.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  width: 320px;
+  height: 320px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 1%;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.box:hover {
+  transform: rotateY(180deg);
+  background-color: #aef4f3;
+  transform: scale(1.1);
+}
+.thumb img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.inline-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.more-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inline-option-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
