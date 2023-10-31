@@ -362,3 +362,44 @@ button:hover {
   background-color: #542121;
   margin-right: 5px;
 }
+@media screen and (max-width: 750px) 
+{
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar a {
+    padding: 10px 0;
+  }
+
+  .log-sign-container {
+    position: static;
+    display: block;
+  }
+
+  .search-bar {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  .box-container {
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+  }
+
+  .box {
+    width: auto;
+    height: auto;
+  }
+
+  .box:hover {
+    transform: none;
+    background-color: #f5f5f5;
+  }
+
+  .topic-details,
+  .rs-playlist {
+    width: 60%;
+  }
+}
