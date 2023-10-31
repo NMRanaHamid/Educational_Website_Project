@@ -335,3 +335,30 @@ button {
 button:hover {
   background-color: #45a049;
 }
+.footer {
+  background-color: var(--white);
+  border-top: var(--border);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* text-align: center; */
+  font-size: larger;
+  padding: 2.5rem 2rem;
+  color: white;
+  margin-top: 1rem;
+  z-index: 1000;
+  background-color: #333;
+  height: 80px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer :hover {
+  content: "\00A9";
+  background-color: #542121;
+  margin-right: 5px;
+}
